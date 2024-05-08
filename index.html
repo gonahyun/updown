@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jua&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">숫자 맞추기 게임</h1>
+      <h1 class="sub-title">Up & Down</h1>
+      <div id="result">
+        <img
+          src="https://i.pinimg.com/originals/7a/d9/8e/7ad98ee684c963ea7f375a1b625fece0.gif"
+          class="main-img"
+        />
+        <h3 class="result-text">Bingo / Up / Down</h3>
+      </div>
+      <h2 id="chance">남은 기회:</h2>
+      <div>
+        <div>
+          <input
+            id="user-input"
+            class="form-control"
+            placeholder="1부터 100까지 숫자를 입력해주세요"
+          />
+        </div>
+        <div class="buttons">
+          <button id="play-button">시작!</button>
+          <button class="reset-button">리셋!</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="custom.js"></script>
+  </body>
+</html>

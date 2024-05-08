@@ -1,0 +1,176 @@
+body {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../img/bg2.jpg);
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+  font-family: "Jua", sans-serif;
+}
+
+.container {
+  width: 50vw;
+  padding: 20px 50px;
+  border: 10px solid#fff;
+  border-radius: 20px;
+  text-align: center;
+  background-color: rgba(185, 185, 185, 0.7);
+}
+
+button {
+  height: 50px;
+  width: 10vw;
+  margin-top: 5px;
+  border-radius: 10px;
+  font-size: 20pt;
+  font-weight: bold;
+}
+
+.title {
+  font-size: 3vw;
+  font-weight: bold;
+}
+.sub-title {
+  font-size: 3vw;
+  font-weight: bold;
+}
+
+.main-img {
+  width: 20vw;
+}
+
+.form-control {
+  width: 40vw;
+  height: 80px;
+  font-size: 1vw;
+  margin-right: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+#play-button {
+  background-color: #fff;
+}
+#chance {
+  font-size: 1.5vw;
+}
+.reset-button {
+  background-color: rgb(255, 68, 68);
+  color: #fff;
+}
+.result-text {
+  font-size: 1.5vw;
+}
+
+@media screen and (max-width: 70rem) {
+  .container {
+    width: 70vw;
+    padding: 20px 50px;
+    border: 10px solid#fff;
+    border-radius: 20px;
+    text-align: center;
+    background-color: rgba(185, 185, 185, 0.7);
+  }
+
+  button {
+    height: 40px;
+    width: 12vw;
+    margin-top: 5px;
+    border-radius: 10px;
+    font-size: 13pt;
+    font-weight: bold;
+  }
+
+  .title {
+    font-size: 5vw;
+    font-weight: bold;
+  }
+  .sub-title {
+    font-size: 4vw;
+    font-weight: bold;
+  }
+
+  .main-img {
+    width: 30vw;
+  }
+  #chance {
+    font-size: 3vw;
+  }
+  .form-control {
+    width: 60vw;
+    height: 60px;
+    font-size: 1.5vw;
+    margin-right: 20px;
+    text-align: center;
+    border-radius: 10px;
+  }
+  #play-button {
+    background-color: #fff;
+  }
+
+  .reset-button {
+    background-color: rgb(255, 68, 68);
+    color: #fff;
+  }
+  .result-text {
+    font-size: 3vw;
+  }
+}
+@media screen and (max-width: 45rem) {
+  .container {
+    width: 60vw;
+    padding: 20px 50px;
+    border: 10px solid#fff;
+    border-radius: 20px;
+    text-align: center;
+    background-color: rgba(185, 185, 185, 0.7);
+  }
+
+  button {
+    height: 30px;
+    width: 15vw;
+    margin-top: 5px;
+    border-radius: 10px;
+    font-size: 10pt;
+    font-weight: bold;
+  }
+
+  .title {
+    font-size: 6vw;
+    font-weight: bold;
+  }
+  .sub-title {
+    font-size: 5vw;
+    font-weight: bold;
+  }
+
+  .main-img {
+    width: 35vw;
+  }
+  #chance {
+    font-size: 4vw;
+  }
+  .form-control {
+    width: 60vw;
+    height: 60px;
+    font-size: 3vw;
+    margin-right: 20px;
+    text-align: center;
+    border-radius: 10px;
+  }
+  #play-button {
+    background-color: #fff;
+  }
+
+  .reset-button {
+    background-color: rgb(255, 68, 68);
+    color: #fff;
+  }
+  .result-text {
+    font-size: 4vw;
+  }
+}
