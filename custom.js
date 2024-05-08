@@ -1,3 +1,4 @@
+
 let computerNumber = 0;
 let playButton = document.getElementById("play-button");
 let resetButton = document.querySelector(".reset-button");
@@ -34,7 +35,7 @@ function play() {
   }
 
   chances--;
-  chance.innerHTML = `남은 기회:${chances}`;
+  chance.innerHTML = `남은 기회 : ${chances}`;
   userValueList.push(userValue);
   if (userValue < computerNumber) {
     resultImg.src =
